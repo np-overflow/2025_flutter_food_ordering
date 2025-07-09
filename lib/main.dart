@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:food_ordering/food.dart';
+import 'package:food_ordering/models/food.dart';
 
 void main() {
   runApp(
@@ -18,6 +18,11 @@ class FoodOrderPage extends StatefulWidget {
 }
 
 class _FoodOrderPageState extends State<FoodOrderPage> {
+  /// Useful information:
+  /// - Write all code in this file.
+  /// - In each `Food` object, the `isSelected` instance variable represents whether the food has been selected.
+  /// - Replace the Container() widget provided with your desired widget.
+
   final food = [
     Food(
       title: "Classic Pizza",
